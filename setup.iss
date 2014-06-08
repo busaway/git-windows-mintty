@@ -2,9 +2,9 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MinTTY for Git for Windows"
-#define MyAppVersion "1.2"
-#define MyAppPublisher "Ryan Pavlik"
-#define MyAppURL "http://github.com/rpavlik/git-windows-mintty"
+#define MyAppVersion "1.2.2014-busaway.1"
+#define MyAppPublisher "busaway"
+#define MyAppURL "https://github.com/busaway/git-windows-mintty"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -61,3 +61,6 @@ Root: HKCR; SubKey: Directory\shell\git_bash_mintty; ValueType: string; ValueDat
 Root: HKCR; SubKey: Directory\shell\git_bash_mintty\command; ValueType: string; ValueData: """{syswow64}\wscript.exe"" ""{app}\GitMintty.js"" ""%1"""; Flags: UninsDeleteKey; 
 Root: HKCR; SubKey: Directory\Background\shell\git_bash_mintty; ValueType: string; ValueData: "Git Bash Here (MinTTY)"; Flags: UninsDeleteKey; 
 Root: HKCR; SubKey: Directory\Background\shell\git_bash_mintty\command; ValueType: string; ValueData: """{syswow64}\wscript.exe"" ""{app}\GitMintty.js"" ""%V"""; Flags: UninsDeleteKey; 
+
+[ThirdParty]
+CompileLogMethod=append
