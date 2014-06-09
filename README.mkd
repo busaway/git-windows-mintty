@@ -82,7 +82,7 @@ See `licenses.txt` for full license info on bundled files.
 		ties-terminal.svgz> (see also Wikipedia [image entry][wikipediakonsole])
 		and [Oxygen Project entry][oxyproj]
 
-[download]: https://github.com/rpavlik/git-windows-mintty/downloads
+[download]: https://github.com/busaway/git-windows-mintty/releases/tag/v1.2
 [Git]: http://git-scm.com/
 [Git for Windows]: http://msysgit.github.com/
 [MinTTY]: http://code.google.com/p/mintty/
