@@ -37,8 +37,13 @@ However if you want to build the installer from source:
 
 [Inno Setup]: http://www.jrsoftware.org/isinfo.php
 
+## Known Issues with mintty
+- fail to load vi/vim and nano editor (issue #5)
+
 ## Changelog
 
+### Version 1.3 - 10 June 2014
+add .inputrc & .bashrc files
 
 
 ### Version 1.2.2014-busaway.1 - 9 June 2014
@@ -82,7 +87,7 @@ See `licenses.txt` for full license info on bundled files.
 		ties-terminal.svgz> (see also Wikipedia [image entry][wikipediakonsole])
 		and [Oxygen Project entry][oxyproj]
 
-[download]: https://github.com/busaway/git-windows-mintty/releases/tag/v1.2
+[download]: https://github.com/busaway/git-windows-mintty/releases/latest
 [Git]: http://git-scm.com/
 [Git for Windows]: http://msysgit.github.com/
 [MinTTY]: http://code.google.com/p/mintty/

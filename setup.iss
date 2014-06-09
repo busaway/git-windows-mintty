@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MinTTY for Git for Windows"
-#define MyAppVersion "1.2.2014-busaway.1"
+#define MyAppVersion "1.3"
 #define MyAppPublisher "busaway"
 #define MyAppURL "https://github.com/busaway/git-windows-mintty"
 
@@ -55,6 +55,8 @@ Source: mintty-1.1.3\mintty.exe; DestDir: {app}\bin;
 Source: GitMintty.js; DestDir: {app};
 Source: gitmintty.ico; DestDir: {app}\mintty;
 Source: licenses.txt; DestDir: {app}\mintty;
+Source: .bashrc; DestDir: {%USERPROFILE};
+Source: .inputrc; DestDir: {%USERPROFILE};
 
 [Registry]
 Root: HKCR; SubKey: Directory\shell\git_bash_mintty; ValueType: string; ValueData: "Git Bash Here (MinTTY)"; Flags: UninsDeleteKey; 
