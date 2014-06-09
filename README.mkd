@@ -39,6 +39,11 @@ However if you want to build the installer from source:
 
 ## Changelog
 
+
+
+### Version 1.2.2014-busaway.1 - 9 June 2014
+change version number for release the installer
+
 ### Version 1.2 - 20 June 2013
 Updated MinTTY to v1.1.3. See [MinTTY changelog][] for details.
 
